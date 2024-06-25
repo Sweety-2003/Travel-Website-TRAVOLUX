@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.hero {
+    background-image:  url('background_image.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    animation-duration: 1s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 20%;
+    }
+    to{
+      margin-left: 0%;
+    }    
+  }
+
+#button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.about-us {
+    padding: 2em;
+}
+
+.about-us h2 {
+    margin-top: 0;
+}
+.about-us img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.about-us ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-us li {
+    margin-bottom: 20px;
+}
+.about-us img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}

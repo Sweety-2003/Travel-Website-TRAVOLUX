@@ -1,0 +1,64 @@
+.packages {
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .package-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .package-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px);
+    margin: 0 10px 20px;
+    text-align: center;
+  }
+  .package-card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .package-card h3 {
+    margin: 20px 0;
+  }
+  
+  .package-card p {
+    margin: 10px 0;
+  }
+  
+  .package-price {
+    color: #f04;
+    font-weight: bold;
+  }
+  .package-btn {
+    background-color: #f04;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+  }
+  .package-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px; /* add this to set a maximum width */
+    margin: 0 auto; /* add this to center the container */
+  }
+  
+  .package-card {
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px);
+    margin : 0 10px 20px;
+    text-align: center;
+    width: 250px; 
+  }
